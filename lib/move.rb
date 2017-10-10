@@ -11,4 +11,3 @@ def input_to_index(input)
   puts "1" = "#{board[0]}"
 
 end
-
