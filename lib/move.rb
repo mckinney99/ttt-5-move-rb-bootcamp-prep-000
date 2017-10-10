@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  puts "1".to_i[0] 
+  puts "1".to_board[0] 
   puts "2".to_i
   puts "3".to_i
   puts "4".to_i
