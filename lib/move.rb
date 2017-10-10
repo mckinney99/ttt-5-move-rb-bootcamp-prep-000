@@ -8,14 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  input "1".to_board[0]
-  input "2".to_i
-  puts "3".to_i
-  puts "4".to_i
-  puts "5".to_i
-  puts "6".to_i
-  puts "7".to_i
-  puts "8".to_i
-  puts "9".to_i
+  input.to_i - 1
+end
 
+def move(board, input, player = "X")
+  board[input] = player.upcase
 end
