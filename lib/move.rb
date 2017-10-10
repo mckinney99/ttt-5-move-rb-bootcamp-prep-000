@@ -19,4 +19,3 @@ def input_to_index(input)
   puts "9".to_i - 1
 
 end
- 
